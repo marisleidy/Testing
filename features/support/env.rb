@@ -21,7 +21,7 @@ end
 
 After do
 
-    $driver.closeg
+    $driver.close
 
 end
 
