@@ -13,20 +13,20 @@ require 'time'
 require 'base64'
 require 'report_builder'
 
-Before do //se ejecuta ante cada escenario////siempre inicias el driver de watir que es el que levanta el navegador//
+Before do 
     $driver =  Watir::Browser.new :firefox
 
 end
 
 
-After do //se ejecuta despues de cada Scenario//
+After do
 
-    $driver.close
+    $driver.closeg
 
 end
 
 
-at_exit do //al final de todo//
+at_exit do 
 
 
 end
